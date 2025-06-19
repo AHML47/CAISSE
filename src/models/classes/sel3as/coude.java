@@ -1,4 +1,4 @@
-package models.classes;
+package models.classes.sel3as;
 
 public class coude extends PVC{
     double angle;

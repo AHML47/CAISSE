@@ -1,4 +1,6 @@
-package models.classes;
+package models.classes.sel3as;
+
+import models.classes.sel3a;
 
 public class dohn extends sel3a {
     String couleur;
@@ -12,8 +14,8 @@ public class dohn extends sel3a {
     
     // Constructeur avec tous les paramètres
     public dohn(int id, int cteStock, double soumChra, double soumLbi3, String esemVendeur, String plce,
-                String couleur, String marke, double poids) {
-        super(id, cteStock, soumChra, soumLbi3, esemVendeur, plce, "dohn-" + couleur + "-" + String.valueOf(poids));
+                String couleur, String marke, double poids,String iconPath) {
+        super(id, cteStock, soumChra, soumLbi3, esemVendeur, plce, "dohn-" + couleur + "-" + String.valueOf(poids),iconPath);
         this.couleur = couleur;
         this.marke = marke;
         this.poids = poids;

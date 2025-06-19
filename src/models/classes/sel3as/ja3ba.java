@@ -1,4 +1,4 @@
-package models.classes;
+package models.classes.sel3as;
 
 public class ja3ba extends PVC {
     double Longeur;

@@ -1,5 +1,7 @@
 package models.classes;
 
+import java.util.UUID;
+
 public class sel3a {
     int id;
     String name;
@@ -8,23 +10,31 @@ public class sel3a {
     double soumLbi3;
     String esemVendeur ;
     String plce;
+    String iconPath;
     
     // Constructeur par défaut
     public sel3a() {
     }
     
     // Constructeur avec tous les paramètres
-    public sel3a(int id, int cteStock, double soumChra, double soumLbi3, String esemVendeur, String plce, String nom) {
-        this.id = id;
+    public sel3a(int id, int cteStock, double soumChra, double soumLbi3, String esemVendeur, String plce, String nom, String iconPath) {
+        this.id = UUID.randomUUID().hashCode();
         this.cteStock = cteStock;
         this.soumChra = soumChra;
         this.soumLbi3 = soumLbi3;
         this.esemVendeur = esemVendeur;
         this.plce = plce;
         this.name = nom;
+        this.iconPath = iconPath;
     }
     
     // Getters et Setters
+    public String getIconPath() {
+        return iconPath;
+    }
+    public void setIconPath(String iconPath) {
+        this.iconPath = iconPath;
+    }
     public int getId() {
         return id;
     }

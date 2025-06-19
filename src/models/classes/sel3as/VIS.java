@@ -1,4 +1,6 @@
-package models.classes;
+package models.classes.sel3as;
+
+import models.classes.sel3a;
 
 public class VIS extends sel3a {
     double longeur;
@@ -15,8 +17,8 @@ public class VIS extends sel3a {
     
     // Constructeur avec tous les paramètres (incluant ceux de la classe parente)
     public VIS(int id, int cteStock, double soumChra, double soumLbi3, String esemVendeur, String plce,
-               double longeur, double diametre, String empreinte, String tete_vis, String type, String Fletage) {
-        super(id, cteStock, soumChra, soumLbi3, esemVendeur, plce,"VIS-"+type);
+               double longeur, double diametre, String empreinte, String tete_vis, String type, String Fletage,String iconPath) {
+        super(id, cteStock, soumChra, soumLbi3, esemVendeur, plce,"VIS-"+type,iconPath);
         this.longeur = longeur;
         this.diametre = diametre;
         this.empreinte = empreinte;
