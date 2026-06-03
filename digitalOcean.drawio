@@ -4,14 +4,23 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4rWgztRVqK7Gjqz32-zJ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="340" width="450" x="190" y="90" as="geometry" />
+        <mxCell id="4rWgztRVqK7Gjqz32-zJ-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;supaBase&lt;/div&gt;(PostgreSQL)" vertex="1">
+          <mxGeometry height="130" width="80" x="460" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="4rWgztRVqK7Gjqz32-zJ-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="supabase&lt;div&gt;service&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="60" x="550" y="320" as="geometry" />
+        <mxCell id="4rWgztRVqK7Gjqz32-zJ-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="TimescaleDB&amp;nbsp;" vertex="1">
+          <mxGeometry height="130" width="80" x="550" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="4rWgztRVqK7Gjqz32-zJ-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
-          <mxGeometry height="80" width="60" x="385" y="320" as="geometry" />
+        <mxCell id="4rWgztRVqK7Gjqz32-zJ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="mosquitto" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4rWgztRVqK7Gjqz32-zJ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="backend" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4rWgztRVqK7Gjqz32-zJ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4rWgztRVqK7Gjqz32-zJ-7" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
+          <mxGeometry height="150" width="100" x="490" y="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
